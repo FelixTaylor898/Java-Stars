@@ -27,17 +27,17 @@ public class Sets {
             System.out.print("File failure.");
             System.exit(0);
         }
-        while (iroScan.hasNext()) {
-            iro.add(iroScan.next());
+        while (iroScan.hasNextLine()) {
+            iro.add(iroScan.nextLine());
         }
-        while (aevarScan.hasNext()) {
-            aevar.add(aevarScan.next());
+        while (aevarScan.hasNextLine()) {
+            aevar.add(aevarScan.nextLine());
         }
-        while (yssykiScan.hasNext()) {
-            yssyki.add(yssykiScan.next());
+        while (yssykiScan.hasNextLine()) {
+            yssyki.add(yssykiScan.nextLine());
         }
-        while (iktiScan.hasNext()) {
-            ikti.add(iktiScan.next());
+        while (iktiScan.hasNextLine()) {
+            ikti.add(iktiScan.nextLine());
         }
         iroScan.close();
         aevarScan.close();

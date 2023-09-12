@@ -47,7 +47,7 @@ public class Galaxy {
 
     private static Star createStar() {
         String name = "";
-        int syll = new Random().nextInt(6);
+        int syll = new Random().nextInt(4);
         for (int s = 0; s < syll; s++) {
             name += genSyllable();
         }
